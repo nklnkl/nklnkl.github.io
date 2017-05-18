@@ -44,7 +44,7 @@ jQuery(document).ready(function() {
       width: '146px',
       'transform-origin': 'center'
     },
-    background: 'https://lh5.googleusercontent.com/TLQIwIVyMQ0cLdM8Fjl0GUQHC6YtkPQ7KjW9H-tRdPLuSD9RyWkwGULbWceBsaxbevj6kOjyYpInSVQ=w1920-h966-rw'
+    background: 'https://nklnkl.github.io/faceplace-booth-editor/booth-red.png'
   });
 
   // The SceneMachine template data set.
@@ -64,8 +64,8 @@ jQuery(document).ready(function() {
       width: '124px',
       'transform-origin': 'center'
     },
-    // background: 'SceneMachine.png'
-    background: 'https://lh6.googleusercontent.com/5ZxKotcoVEiZ6BIg7q4KVNJ_A-e1poPdK9_QJM3pXnTEFBB38d_yzUK9SBXp57C8r6aXGC_frvZ_-Ok=w1920-h966'
+    // background: 'https://nklnkl.github.io/faceplace-booth-editor/SceneMachine.png'
+    background: 'https://nklnkl.github.io/faceplace-booth-editor/custom-SceneMachine.png'
   });
 
   // The ThemePark template data set.
@@ -85,8 +85,8 @@ jQuery(document).ready(function() {
       width: '121px',
       'transform-origin': 'center'
     },
-    // background: 'ThemePark.png'
-    background: 'https://lh4.googleusercontent.com/dkNOp-Wn6vZrW4kCP5AEe0j_m5ZdgiuwH1MEjG2-qhQYL3RCFeVhmQoJYzk4VMK-Kkq6SIFTImxDF_Y=w1920-h966'
+    // background: 'https://nklnkl.github.io/faceplace-booth-editor/ThemePark.png'
+    background: 'https://nklnkl.github.io/faceplace-booth-editor/custom-ThemePark.png'
   });
 
   // The Photo2Go template data set.
@@ -106,8 +106,8 @@ jQuery(document).ready(function() {
       width: '35px',
       'transform-origin': 'center'
     },
-    // background: 'Photo2Go.png'
-    background: 'https://lh3.googleusercontent.com/avR8geCoaEFk9_Ehsmo-v_WgkRd1csjl-jAoi1ozFrWee17eZw-3vwX8vgTiaUXahJRBT1BlKcMk-x8=w1920-h966'
+    // background: 'https://nklnkl.github.io/faceplace-booth-editor/Photo2Go.png'
+    background: 'https://nklnkl.github.io/faceplace-booth-editor/custom-Photo2Go.png'
   });
 
   // The Ruby template data set.
@@ -127,8 +127,8 @@ jQuery(document).ready(function() {
       width: '126px',
       'transform-origin': '0px 76px'
     },
-    // background: 'Ruby.png'
-    background: 'https://lh4.googleusercontent.com/eexzaHhneBFDn8d1Jxww65t59qyBnXIT6u4Dqp5tttymv1Mf7aXPQwTFST1FxahMKgKn0AR16s0G2Rs=w1920-h966'
+    // background: 'https://nklnkl.github.io/faceplace-booth-editor/Ruby.png'
+    background: 'https://nklnkl.github.io/faceplace-booth-editor/custom-Ruby.png'
   });
 
   // The Sapphire template data set.
@@ -148,8 +148,8 @@ jQuery(document).ready(function() {
       width: '119px',
       'transform-origin': 'center'
     },
-    // background: 'Sapphire.png'
-    background: 'https://lh3.googleusercontent.com/icPvsOz6IvTxPYy15l7Svz9p8FN115LX0nlhwW_lpVygPJBjzIZ0wy4i5qkD9gte6iXpEx5bmLUDaCI=w1920-h966'
+    // background: 'https://nklnkl.github.io/faceplace-booth-editor/Sapphire.png'
+    background: 'https://nklnkl.github.io/faceplace-booth-editor/custom-Sapphire.png'
   });
 
   // The function for selecting an element.
