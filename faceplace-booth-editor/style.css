@@ -1,0 +1,148 @@
+#booth-container {
+  width: 100%;
+  vertical-align: top;
+  padding: 20px;
+  box-shadow: 1px 1px 4px grey;
+  border-radius: 8px
+}
+
+article#booth-tools {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+article#booth-preview {
+  width: 65%;
+  display: inline-block;
+  text-align: center
+}
+
+article#booth-controls {
+  width: 33%;
+  display: inline-block;
+  vertical-align: top
+}
+
+#booth-tools > * {
+  display: inline-block;
+  cursor: pointer;
+  margin-right: 20px;
+  background: #22a4e2;
+  background-image: -webkit-linear-gradient(top, #22a4e2, #0368ae);
+  background-image: -moz-linear-gradient(top, #22a4e2, #0368ae);
+  background-image: -ms-linear-gradient(top, #22a4e2, #0368ae);
+  background-image: -o-linear-gradient(top, #22a4e2, #0368ae);
+  background-image: linear-gradient(to bottom, #22a4e2, #0368ae);
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;
+  text-shadow: 0 3px 0 #0368ae;
+  font-family: Arial;
+  color: #fff;
+  padding: 5px;
+  border: 2px solid #0368ae;
+  text-decoration: none;
+  width: auto!important
+}
+
+#booth-background {
+  display: inline-block;
+  background-image: url(booth-red.png);
+  background-repeat: no-repeat;
+  background-size: auto 362px;
+  width: 290px;
+  height: 362px
+}
+
+label.booth-control-button {
+  background: #22a4e2;
+  background-image: -webkit-linear-gradient(top, #22a4e2, #0368ae);
+  background-image: -moz-linear-gradient(top, #22a4e2, #0368ae);
+  background-image: -ms-linear-gradient(top, #22a4e2, #0368ae);
+  background-image: -o-linear-gradient(top, #22a4e2, #0368ae);
+  background-image: linear-gradient(to bottom, #22a4e2, #0368ae);
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;
+  text-shadow: 0 3px 0 #0368ae;
+  font-family: Arial;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 20px;
+  border: 2px solid #0368ae;
+  text-decoration: none;
+  width: auto!important
+}
+
+input.booth-control-file-input {
+  display: none
+}
+
+label.booth-control-button:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+  cursor: pointer
+}
+
+div.booth-control {
+  text-align: center;
+}
+
+div.booth-control>h5 {
+  width: 100%;
+  text-align: right;
+  font-size: 1.2em;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  text-align: center;
+}
+
+label#booth-control-color-slider-container {
+  background-image: url(color-bar.jpg);
+  background-size: 100%;
+  padding-top: 10px
+}
+
+input#booth-control-color-slider {
+  width: 100%;
+  height: 0;
+  padding: 0;
+  margin: 0
+}
+
+#booth-background-front {
+  height: 417px;
+  width: 146px;
+  -ms-transform: perspective(281px) rotateY(-23deg) translateY(-39px) translateX(56px) translateZ(-148px);
+  -webkit-transform: perspective(281px) rotateY(-23deg) translateY(-39px) translateX(56px) translateZ(-148px);
+  transform: perspective(281px) rotateY(-23deg) translateY(-39px) translateX(56px) translateZ(-148px);
+  overflow: hidden;
+  position: absolute;
+  transform-origin: center;
+}
+
+#booth-background-side {
+  height: 409px;
+  width: 146px;
+  -webkit-transform: perspective(281px) rotateY(23deg) rotateZ(-1deg) translate(270px, -27px);
+  -ms-transform: perspective(281px) rotateY(23deg) rotateZ(-1deg) translate(270px, -27px);
+  transform: perspective(281px) rotateY(23deg) rotateZ(-1deg) translate(270px, -27px);
+  overflow: hidden;
+  position: absolute;
+  transform-origin: center;
+}
+
+.booth-image {
+  position: absolute;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  background-color: #d3d3d3;
+  cursor: move;
+}

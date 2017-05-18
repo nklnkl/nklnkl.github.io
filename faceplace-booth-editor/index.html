@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+    <script type="text/javascript" src="script.js">
+    </script>
+</head>
+
+<body>
+  <code>
+
+    <section id="booth-container" style="cursor: move;">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+
+      <article id="booth-tools"><span id="booth-move">Move</span><span id="booth-rotate">Rotate</span><span id="booth-scale">Scale</span><span id="booth-prev">Prev. Booth</span><span id="booth-next">Next Booth</span></article>
+
+      <article id="booth-preview">
+        <div id="booth-background">
+        <div id="booth-background-front">
+          <div class="booth-image">Add your logo</div>
+        </div>
+        <div id="booth-background-side">
+          <div class="booth-image">Add your logo</div>
+        </div>
+        </div>
+      </article>
+
+      <article id="booth-controls">
+        <div class="booth-control">
+        <h5>Change your booth color</h5>
+        <p><label id="booth-control-color-slider-container"><input id="booth-control-color-slider" type="range" max="360" min="0" value="0"></label></p></div>
+        <div class="booth-control">
+        <h5>Customize front panel</h5>
+        <p><label class="booth-control-button"><input id="front-button" type="file" accept="image/*" class="booth-control-file-input">Add an image</label></p></div>
+        <div class="booth-control">
+        <h5>Customize side panel</h5>
+        <p><label class="booth-control-button"><input id="side-button" type="file" accept="image/*" class="booth-control-file-input">Add an image</label></p></div>
+        <div class="booth-control">
+        <h5>Preview your mockup</h5>
+        <p><label class="booth-control-button" id="save-button">Download Mockup</label></p></div>
+        <div class="booth-control"><h6>*We recommend using images with alpha channels and sizes of atleast 100 by 100 pixels.</h6></div>
+      </article>
+    </section>
+
+  </code>
+
+</body>
+
+</html>
