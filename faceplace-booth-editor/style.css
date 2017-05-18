@@ -46,7 +46,7 @@ article#booth-controls {
 
 #booth-background {
   display: inline-block;
-  background-image: url(booth-red.png);
+  background-image: url('https://lh5.googleusercontent.com/TLQIwIVyMQ0cLdM8Fjl0GUQHC6YtkPQ7KjW9H-tRdPLuSD9RyWkwGULbWceBsaxbevj6kOjyYpInSVQ=w1920-h966-rw');
   background-repeat: no-repeat;
   background-size: auto 362px;
   width: 290px;
@@ -101,7 +101,7 @@ div.booth-control>h5 {
 }
 
 label#booth-control-color-slider-container {
-  background-image: url(color-bar.jpg);
+  background-image: url('https://lh6.googleusercontent.com/eS2paAkjfuO4cdXuXY9zPnfdvDxawgSHtCVOv240O7MtF3d-YUC2XbuG1lzTjj5lTQn8yN0R8zSHPX0=w1920-h966');
   background-size: 100%;
   padding-top: 10px
 }
